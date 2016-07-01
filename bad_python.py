@@ -5,5 +5,6 @@ def myfunc(a, b):
 # using myfunc:
 
 a = 1
+b = a**2            # Add a value for b, b is a squared even if a changes
 
-myfunc(a)
+myfunc(a, b)        #Remove myfunc(a) and replace with myfunc(a, b)
